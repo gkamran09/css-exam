@@ -5,6 +5,34 @@
     <title>CSS Flex</title>
 </head>
 
+<style>
+    main {
+        border: 2px solid green;
+        height: 500px;
+    }
+
+    .flex-container {
+        border: 2px dashed purple;
+        align-items: center;
+        display: flex;
+        flex-direction: column; 
+        width: 500px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto; 
+        flex-direction: row;
+    }
+    .flex-container > div{
+        border: 1px solid red;
+        color: blue;
+        background-color: pink;
+        margin: 20px;
+        padding: 40px;
+        font-size: 30px;
+        
+    }
+</style>
+
 <body>
     <main>
         <h1>The flex Property</h1>
